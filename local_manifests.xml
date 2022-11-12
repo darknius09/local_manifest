@@ -2,9 +2,13 @@
 <manifest>
   <!-- remove-->
   <remove-project name="packages_modules_Connectivity" />
+  <remove-project name="frameworks_base" />
+  <remove-project name="packages_apps_Settings" />
   
   <!-- fork -->
   <project path="packages/modules/Connectivity" name="Night-Raids-Reborn/packages_modules_Connectivity" remote="github" revision="twelve" clone-depth="1" />
+  <project path="frameworks/base" name="Night-Raids-Reborn/pex_fwb" remote="github" revision="snow" clone-depth="1" />
+  <project path="packages/apps/Settings" name="Night-Raids-Reborn/pex_apps_Settings" remote="github" revision="snow" clone-depth="1" />
   
   <!-- Trees -->
   <project path="device/xiaomi/juice" name="Night-Raids-Reborn/dt-juice" remote="github" revision="pex" clone-depth="1" />
