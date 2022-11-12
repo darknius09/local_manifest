@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Trees -->
+  <project path="device/xiaomi/juice" name="Night-Raids-Reborn/dt-juice" remote="github" revision="pex" clone-depth="1" />
+  <project path="vendor/xiaomi/juice" name="Night-Raids-Reborn/vendor_xiaomi_juice" remote="github" revision="snow" clone-depth="1" />
+  <project path="kernel/xiaomi/juice" name="darknius20/guuji_kernel_juice" remote="github" revision="main.stbl" clone-depth="1" />
+</manifest>
